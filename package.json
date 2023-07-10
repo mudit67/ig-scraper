@@ -1,0 +1,22 @@
+{
+  "name": "ig-scraper",
+  "version": "1.0.0",
+  "description": "A net-scrapper to extract post from accounts you choose.",
+  "main": "index.js",
+  "bin": {
+    "ig-scraper": "bin/get-ig-posts.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mudit Bhardwaj",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "instagram-better-scrape": "^1.0.7",
+    "instagram-without-api-node": "^1.0.12",
+    "node-fetch": "^3.3.1",
+    "puppeteer": "^19.4.0",
+    "scraper-instagram": "^1.0.17"
+  }
+}
